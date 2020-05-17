@@ -13,6 +13,16 @@
 		2D92DC42246AF77D00EFD565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D92DC41246AF77D00EFD565 /* Assets.xcassets */; };
 		2D92DC45246AF77D00EFD565 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D92DC44246AF77D00EFD565 /* Preview Assets.xcassets */; };
 		2D92DC48246AF77D00EFD565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D92DC46246AF77D00EFD565 /* LaunchScreen.storyboard */; };
+		2D92DC50246AF78B00EFD565 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D92DC4F246AF78B00EFD565 /* Country.swift */; };
+		2D92DC52246AF7C200EFD565 /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D92DC51246AF7C200EFD565 /* CountryData.swift */; };
+		2D92DC54246AF84500EFD565 /* CountryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D92DC53246AF84500EFD565 /* CountryRow.swift */; };
+		2D92DC56246AFB7500EFD565 /* CountryEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D92DC55246AFB7500EFD565 /* CountryEditor.swift */; };
+		2D92DC58246B7D9100EFD565 /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D92DC57246B7D9100EFD565 /* CountryList.swift */; };
+		2D92DCA8246C183100EFD565 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D92DCA7246C183100EFD565 /* PieChartView.swift */; };
+		2D92DCAA246C1CE500EFD565 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D92DCA9246C1CE500EFD565 /* BarChartView.swift */; };
+		2DD36209246FF20900EB5F25 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD36208246FF20900EB5F25 /* ChartView.swift */; };
+		2DD3620B2470005700EB5F25 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD3620A2470005700EB5F25 /* PieChart.swift */; };
+		2DD3620D247000B900EB5F25 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD3620C247000B900EB5F25 /* BarChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		2D92DC44246AF77D00EFD565 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D92DC47246AF77D00EFD565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D92DC49246AF77D00EFD565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D92DC4F246AF78B00EFD565 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		2D92DC51246AF7C200EFD565 /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
+		2D92DC53246AF84500EFD565 /* CountryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRow.swift; sourceTree = "<group>"; };
+		2D92DC55246AFB7500EFD565 /* CountryEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryEditor.swift; sourceTree = "<group>"; };
+		2D92DC57246B7D9100EFD565 /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
+		2D92DCA7246C183100EFD565 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		2D92DCA9246C1CE500EFD565 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		2DD36208246FF20900EB5F25 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		2DD3620A2470005700EB5F25 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		2DD3620C247000B900EB5F25 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,16 @@
 		2D92DC3A246AF77B00EFD565 /* HW4 */ = {
 			isa = PBXGroup;
 			children = (
+				2D92DC51246AF7C200EFD565 /* CountryData.swift */,
+				2D92DC53246AF84500EFD565 /* CountryRow.swift */,
+				2D92DC57246B7D9100EFD565 /* CountryList.swift */,
+				2D92DC55246AFB7500EFD565 /* CountryEditor.swift */,
+				2D92DC4F246AF78B00EFD565 /* Country.swift */,
+				2D92DCA7246C183100EFD565 /* PieChartView.swift */,
+				2DD3620A2470005700EB5F25 /* PieChart.swift */,
+				2D92DCA9246C1CE500EFD565 /* BarChartView.swift */,
+				2DD3620C247000B900EB5F25 /* BarChart.swift */,
+				2DD36208246FF20900EB5F25 /* ChartView.swift */,
 				2D92DC3B246AF77B00EFD565 /* AppDelegate.swift */,
 				2D92DC3D246AF77B00EFD565 /* SceneDelegate.swift */,
 				2D92DC3F246AF77B00EFD565 /* ContentView.swift */,
@@ -146,7 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D92DCA8246C183100EFD565 /* PieChartView.swift in Sources */,
+				2D92DC50246AF78B00EFD565 /* Country.swift in Sources */,
+				2D92DC52246AF7C200EFD565 /* CountryData.swift in Sources */,
 				2D92DC3C246AF77B00EFD565 /* AppDelegate.swift in Sources */,
+				2D92DC54246AF84500EFD565 /* CountryRow.swift in Sources */,
+				2D92DC58246B7D9100EFD565 /* CountryList.swift in Sources */,
+				2D92DC56246AFB7500EFD565 /* CountryEditor.swift in Sources */,
+				2DD3620D247000B900EB5F25 /* BarChart.swift in Sources */,
+				2DD36209246FF20900EB5F25 /* ChartView.swift in Sources */,
+				2D92DCAA246C1CE500EFD565 /* BarChartView.swift in Sources */,
+				2DD3620B2470005700EB5F25 /* PieChart.swift in Sources */,
 				2D92DC3E246AF77B00EFD565 /* SceneDelegate.swift in Sources */,
 				2D92DC40246AF77B00EFD565 /* ContentView.swift in Sources */,
 			);

@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var countryData = CountriesData()
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            TabView {
+                CountryList(countriesData: self.countryData)
+                    .tabItem {
+                        Text("List")
+                        Image(systemName: "globe")
+                }
+                ChartView(countryData: self.countryData)
+                    .tabItem{
+                    Image(systemName: "chart.pie")
+                    Text("Chart")
+                }
+            }
+            .accentColor(.orange)
+        }
     }
 }
 
