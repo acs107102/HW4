@@ -50,7 +50,7 @@ struct ChartView: View {
                     BarChartView(typeWidths: countryCount)
                     .frame(width: 400, height: 300)
                 }
-            }
+            }.foregroundColor(Color("Color"))
         }
     }
 }
